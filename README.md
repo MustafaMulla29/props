@@ -1545,6 +1545,7 @@ export interface PlatformConfig {
   url?: string;
   printBoardInformationToSilkscreen?: boolean;
   includeBoardFiles?: string[];
+  snapshotsDir?: string;
 
   pcbDisabled?: boolean;
   schematicDisabled?: boolean;
@@ -1585,6 +1586,7 @@ export interface ProjectConfig
     | "url"
     | "printBoardInformationToSilkscreen"
     | "includeBoardFiles"
+    | "snapshotsDir"
   > {}
 ```
 
